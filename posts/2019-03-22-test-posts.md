@@ -2,7 +2,7 @@
 layout: post
 title: テスト投稿
 excerpt: テスト投稿です。
-data: 2019-3-22
+data: 2019-03-22
 tags:
 author: ふっけー
 ---

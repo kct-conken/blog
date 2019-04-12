@@ -46,7 +46,7 @@ var config = {
     },
     {
         name: 'home',
-        layout: {list: 'home', single: 'page'},
+        layout: { list: 'home', single: 'post'},
     },
   ],
 };

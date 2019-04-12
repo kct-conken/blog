@@ -1,5 +1,3 @@
-/* eordpress 管理バー専用 */
-#wpadminbar,#wpadminbar *{ margin-top:0;}
 /*画像保存禁止スマホ用*/
 img{	  
   -webkit-touch-callout:none;
@@ -75,11 +73,13 @@ body{
 }
 header{
 	width: 100%;
+/*
 	position: fixed;
 	top: 0;
 	left: 0;
 	z-index: 99999;
-	border-bottom: 1px solid #ccc;
+*/
+/*	border-bottom: 1px solid #ccc;*/
 	background: #E16B8C;
 }
 footer{

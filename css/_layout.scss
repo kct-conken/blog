@@ -139,7 +139,7 @@ footer{
 	color: #000;
 }
 .button:hover{
-		background: rgba(245,150,170);
+		background: rgba(245,150,170, 1);
 }
 .link-button a{
 	color: #000;
@@ -159,7 +159,7 @@ footer{
 	border: 1px solid #cccccc;
 }
 .writer h3{
-	border-bottom: 2px solid rgba(245,150,170);
+	border-bottom: 2px solid rgba(245,150,170, 1);
 }
 .writer a{
 	padding: 1.0em;

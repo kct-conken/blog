@@ -65,3 +65,118 @@ img{
 	font-size: 83%;
 	font-weight: bold;
 }
+/*全体のレイアウト*/
+body{
+	position: relative;
+	font-family: 'M PLUS 1p', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
+	background: #fff;
+	color: #000;
+}
+header{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99999;
+	border-bottom: 1px solid #ccc;
+	background: #E16B8C;
+}
+footer{
+	color: #fff;
+	margin-top: 2em;
+}
+.fc01{
+	padding: 10px 0;
+	text-align: center;
+	background: rgb(78,79,151);
+}
+.fc02{
+	padding: 10px 0;
+	text-align: center;
+	background: #4d4d4d;
+}
+
+/*新着情報*/
+.log{
+	margin: 0 auto;
+	margin-top: 1em;
+	padding: 2em;
+	background: rgba(0,0,0,0.7);
+	background: #fff;
+}
+.log li{
+	padding: 1em 0;
+	border-bottom: 1px dotted #ccc;	
+}
+.log li time{
+	display: block;
+	float: left;
+}
+.log li p{
+	display: block;
+	float: left;
+	margin-left: 2em;
+}
+.log li:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*リンクボタン*/
+.button{
+	margin: 0 auto;
+	margin-top: 1.0em;
+	padding: 0.5em 1em;
+	width: 200px;
+	border: 2px solid #ccc;
+	border-radius: 3px;
+	transition: all 0.5s;
+}
+.button a{
+	display: block;
+	color: #000;
+}
+.button:hover{
+		background: rgba(245,150,170);
+}
+.link-button a{
+	color: #000;
+}
+/*デコレーション*/
+.article-title{
+	position: relative;
+	padding: 0.25em 0;
+}
+/*アイコン*/
+.fa-angle-double-right{
+	margin-left: 1em;
+}
+/*書いた人*/
+.writer{
+	margin-top: 2.0em;
+	border: 1px solid #cccccc;
+}
+.writer h3{
+	border-bottom: 2px solid rgba(245,150,170);
+}
+.writer a{
+	padding: 1.0em;
+	display: block;
+	color: #000;
+}
+.writer_image{
+	width: 40%;
+	float: left;
+}
+.member_image{
+	text-align: center;
+}
+.writer_copy{
+	width: 60%;
+	float: left;
+}
+.title a{color: #fff;}
+.pc-only{}
+.sm-only{ display:none !important; }

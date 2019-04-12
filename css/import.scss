@@ -1,5 +1,15 @@
 //Files
-@import 'reset';
+@import 'mixins';
 @import 'setting';
+@import 'reset';
+
 @import 'layout';
 @import 'animation';
+
+@import 'module/header';
+@import 'module/nav';
+@import 'module/main';
+
+@import 'module/news';
+
+@import 'theme/text';

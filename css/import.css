@@ -173,62 +173,6 @@ img {
   user-select: none; }
 
 /*TEXT*/
-.title {
-  margin: 0;
-  padding: 10px;
-  font-size: 136%; }
-
-.title a {
-  color: #000; }
-
-.page-title {
-  margin-top: 30px;
-  padding: 0;
-  text-align: center;
-  font-size: 200%;
-  font-weight: 600;
-  line-height: 1.5; }
-
-.page-title-sub {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  font-weight: 600;
-  font-size: 108%;
-  letter-spacing: 0.2em; }
-
-.article-title {
-  margin-top: 30px;
-  padding: 0;
-  text-align: center;
-  font-size: 180%;
-  font-weight: bold; }
-
-.article-title-sub {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  font-weight: 600;
-  font-size: 108%;
-  letter-spacing: 0.2em; }
-
-.article-title-icon {
-  margin-right: 0.5em; }
-
-.section-title {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  font-size: 120%;
-  font-weight: 400; }
-
-.section-title-sub {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  font-size: 83%;
-  font-weight: bold; }
-
 /*全体のレイアウト*/
 body {
   position: relative;
@@ -236,17 +180,6 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   background: #fff;
   color: #000; }
-
-header {
-  width: 100%;
-  /*
-  	position: fixed;
-  	top: 0;
-  	left: 0;
-  	z-index: 99999;
-  */
-  /*	border-bottom: 1px solid #ccc;*/
-  background: #E16B8C; }
 
 footer {
   color: #fff;
@@ -261,32 +194,6 @@ footer {
   padding: 10px 0;
   text-align: center;
   background: #4d4d4d; }
-
-/*新着情報*/
-.log {
-  margin: 0 auto;
-  margin-top: 1em;
-  padding: 2em;
-  background: rgba(0, 0, 0, 0.7);
-  background: #fff; }
-
-.log li {
-  padding: 1em 0;
-  border-bottom: 1px dotted #ccc; }
-
-.log li time {
-  display: block;
-  float: left; }
-
-.log li p {
-  display: block;
-  float: left;
-  margin-left: 2em; }
-
-.log li:after {
-  content: "";
-  display: block;
-  clear: both; }
 
 /*リンクボタン*/
 .button {
@@ -375,3 +282,125 @@ footer {
     opacity: 0; }
   to {
     opacity: 1; } }
+header {
+  width: 100%;
+  /*
+  	position: fixed;
+  	top: 0;
+  	left: 0;
+  	z-index: 99999;
+  */
+  /*	border-bottom: 1px solid #ccc;*/
+  background: #E16B8C; }
+  header .hc {
+    margin: 0 auto;
+    padding: .5em 1em; }
+    @media screen and (min-width: 481px) {
+      header .hc {
+        width: 1200px; } }
+    @media screen and (max-width: 480px) {
+      header .hc {
+        width: 90%; } }
+
+.gnav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .gnav ul li a {
+    display: block;
+    color: #fff; }
+
+main .mc {
+  margin: 0 auto;
+  padding: 1em 0; }
+  @media screen and (min-width: 481px) {
+    main .mc {
+      width: 1200px; } }
+  @media screen and (max-width: 480px) {
+    main .mc {
+      width: 90%; } }
+
+/*新着情報*/
+.log {
+  margin: 0 auto;
+  margin-top: 1em;
+  padding: 2em;
+  background: rgba(0, 0, 0, 0.7);
+  background: #fff; }
+
+.log li {
+  padding: 1em 0;
+  border-bottom: 1px dotted #ccc; }
+
+.log li time {
+  display: block;
+  float: left; }
+
+.log li p {
+  display: block;
+  float: left;
+  margin-left: 2em; }
+
+.log li:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+.news {
+  background: rgba(0, 0, 0, 0.7); }
+
+.title {
+  margin: 0;
+  padding: 10px;
+  font-size: 136%; }
+
+.title a {
+  color: #000; }
+
+.page-title {
+  margin-top: 30px;
+  padding: 0;
+  text-align: center;
+  font-size: 200%;
+  font-weight: 600;
+  line-height: 1.5; }
+
+.page-title-sub {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-weight: 600;
+  font-size: 108%;
+  letter-spacing: 0.2em; }
+
+.article-title {
+  margin-top: 30px;
+  padding: 0;
+  text-align: center;
+  font-size: 180%;
+  font-weight: bold; }
+
+.article-title-sub {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-weight: 600;
+  font-size: 108%;
+  letter-spacing: 0.2em; }
+
+.article-title-icon {
+  margin-right: 0.5em; }
+
+.section-title {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 120%;
+  font-weight: 400; }
+
+.section-title-sub {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 83%;
+  font-weight: bold; }

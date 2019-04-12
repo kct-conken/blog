@@ -1,0 +1,12 @@
+main {
+    .mc {
+        margin: 0 auto;
+        padding: 1em 0;
+        @include min-screen($breakpoint-pc) {
+            width: $width-container-pc;
+        }
+        @include max-screen($breakpoint-sm) {
+            width: $width-container-sm;
+        }
+    }
+}

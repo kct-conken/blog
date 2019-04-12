@@ -282,6 +282,15 @@ footer {
     opacity: 0; }
   to {
     opacity: 1; } }
+.flexbox {
+  display: flex; }
+  @media screen and (min-width: 481px) {
+    .flexbox {
+      justify-content: space-around; } }
+  @media screen and (max-width: 480px) {
+    .flexbox {
+      flex-direction: column; } }
+
 header {
   width: 100%;
   /*
@@ -302,13 +311,9 @@ header {
       header .hc {
         width: 90%; } }
 
-.gnav ul {
-  display: flex;
-  justify-content: space-around;
-  align-items: center; }
-  .gnav ul li a {
-    display: block;
-    color: #fff; }
+.gnav ul li a {
+  display: block;
+  color: #fff; }
 
 main .mc {
   margin: 0 auto;
@@ -321,33 +326,21 @@ main .mc {
       width: 90%; } }
 
 /*新着情報*/
-.log {
-  margin: 0 auto;
-  margin-top: 1em;
-  padding: 2em;
-  background: rgba(0, 0, 0, 0.7);
-  background: #fff; }
-
-.log li {
+.news ul li {
   padding: 1em 0;
-  border-bottom: 1px dotted #ccc; }
+  border-bottom: 1px dotted #ccc;
+  display: flex; }
+  .news ul li p {
+    margin-left: 2em; }
 
-.log li time {
-  display: block;
-  float: left; }
-
-.log li p {
-  display: block;
-  float: left;
-  margin-left: 2em; }
-
-.log li:after {
-  content: "";
-  display: block;
-  clear: both; }
-
-.news {
-  background: rgba(0, 0, 0, 0.7); }
+.card {
+  padding: 1.5em; }
+  @media screen and (min-width: 481px) {
+    .card {
+      width: 300px; } }
+  @media screen and (max-width: 480px) {
+    .card {
+      margin-bottom: 1em; } }
 
 .title {
   margin: 0;
@@ -355,7 +348,7 @@ main .mc {
   font-size: 136%; }
 
 .title a {
-  color: #000; }
+  color: #fff; }
 
 .page-title {
   margin-top: 30px;

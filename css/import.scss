@@ -6,10 +6,13 @@
 @import 'layout';
 @import 'animation';
 
+@import 'layout/flexbox';
+
 @import 'module/header';
 @import 'module/nav';
 @import 'module/main';
 
 @import 'module/news';
+@import 'module/card';
 
 @import 'theme/text';

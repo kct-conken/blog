@@ -468,7 +468,11 @@ footer .fc {
 .post-title {
   font-size: 2em;
   font-weight: bold;
-  line-height: 1.25; }
+  line-height: 1.25;
+  color: #303030; }
+
+.post-title a {
+  color: #303030; }
 
 .post-date {
   color: #9a9a9a; }

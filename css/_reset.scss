@@ -77,3 +77,13 @@ a{ color:#00A0E9; text-decoration: none;} /*color:#202020;*/
 
 h1+*,h2+*,h3+*,h4+*{ margin-top:1.0em;}
 .safety{ display:block; margin:0; padding:0; width:1px; height:1px; overflow:hidden; visibility:hidden;}
+
+/*画像保存禁止スマホ用*/
+img{	  
+  -webkit-touch-callout:none;
+  -webkit-user-select:none;
+  -moz-touch-callout:none;
+  -moz-user-select:none;
+  touch-callout:none;
+  user-select:none;
+}

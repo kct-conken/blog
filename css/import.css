@@ -291,6 +291,141 @@ footer {
     .flexbox {
       flex-direction: column; } }
 
+.mt-1 {
+  margin-top: .5em; }
+
+.mt-2 {
+  margin-top: 1em; }
+
+.mt-3 {
+  margin-top: 1.5em; }
+
+.mt-4 {
+  margin-top: 2em; }
+
+.mt-5 {
+  margin-top: 2.5em; }
+
+.mr-1 {
+  margin-right: .5em; }
+
+.mr-2 {
+  margin-right: 1em; }
+
+.mr-3 {
+  margin-right: 1.5em; }
+
+.mr-4 {
+  margin-right: 2em; }
+
+.mr-5 {
+  margin-right: 2.5em; }
+
+.ml-1 {
+  margin-left: .5em; }
+
+.ml-2 {
+  margin-left: 1em; }
+
+.ml-3 {
+  margin-left: 1.5em; }
+
+.ml-4 {
+  margin-left: 2em; }
+
+.ml-5 {
+  margin-left: 2.5em; }
+
+.mb-1 {
+  margin-bottom: .5em; }
+
+.mb-2 {
+  margin-bottom: 1em; }
+
+.mb-3 {
+  margin-bottom: 1.5em; }
+
+.mb-4 {
+  margin-bottom: 2em; }
+
+.mb-5 {
+  margin-bottom: 2.5em; }
+
+.p-1 {
+  pading: .5em; }
+
+.p-2 {
+  pading: 1em; }
+
+.p-3 {
+  pading: 1.5em; }
+
+.p-4 {
+  pading: 2em; }
+
+.p-5 {
+  pading: 2.5em; }
+
+.pt-1 {
+  pading-top: .5em; }
+
+.pt-2 {
+  pading-top: 1em; }
+
+.pt-3 {
+  pading-top: 1.5em; }
+
+.pt-4 {
+  pading-top: 2em; }
+
+.pt-5 {
+  pading-top: 2.5em; }
+
+.pr-1 {
+  pading-right: .5em; }
+
+.pr-2 {
+  pading-right: 1em; }
+
+.pr-3 {
+  pading-right: 1.5em; }
+
+.pr-4 {
+  pading-right: 2em; }
+
+.pr-5 {
+  pading-right: 2.5em; }
+
+.pl-1 {
+  pading-left: .5em; }
+
+.pl-2 {
+  pading-left: 1em; }
+
+.pl-3 {
+  pading-left: 1.5em; }
+
+.pl-4 {
+  pading-left: 2em; }
+
+.pl-5 {
+  pading-left: 2.5em; }
+
+.pb-1 {
+  pading-bottom: .5em; }
+
+.pb-2 {
+  pading-bottom: 1em; }
+
+.pb-3 {
+  pading-bottom: 1.5em; }
+
+.pb-4 {
+  pading-bottom: 2em; }
+
+.pb-5 {
+  pading-bottom: 2.5em; }
+
 header {
   width: 100%;
   /*
@@ -341,6 +476,10 @@ main .mc {
   @media screen and (max-width: 480px) {
     .card {
       margin-bottom: 1em; } }
+
+.slick-slider img {
+  height: 50vh;
+  width: 100%; }
 
 .title {
   margin: 0;
@@ -397,3 +536,15 @@ main .mc {
   text-align: center;
   font-size: 83%;
   font-weight: bold; }
+
+header {
+  background: #69bd83; }
+
+footer {
+  background: #846abd; }
+
+.card {
+  background: rgba(189, 132, 106, 0.5); }
+
+.textbox {
+  background: rgba(189, 132, 106, 0.5); }

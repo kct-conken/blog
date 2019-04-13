@@ -172,88 +172,6 @@ img {
   touch-callout: none;
   user-select: none; }
 
-/*TEXT*/
-/*全体のレイアウト*/
-body {
-  position: relative;
-  font-family: 'M PLUS 1p', sans-serif;
-  font-family: 'Source Sans Pro', sans-serif;
-  background: #fff;
-  color: #000; }
-
-footer {
-  color: #fff;
-  margin-top: 2em; }
-
-.fc01 {
-  padding: 10px 0;
-  text-align: center;
-  background: #4e4f97; }
-
-.fc02 {
-  padding: 10px 0;
-  text-align: center;
-  background: #4d4d4d; }
-
-/*リンクボタン*/
-.button {
-  margin: 0 auto;
-  margin-top: 1.0em;
-  padding: 0.5em 1em;
-  width: 200px;
-  border: 2px solid #ccc;
-  border-radius: 3px;
-  transition: all 0.5s; }
-
-.button a {
-  display: block;
-  color: #000; }
-
-.button:hover {
-  background: #f596aa; }
-
-.link-button a {
-  color: #000; }
-
-/*デコレーション*/
-.article-title {
-  position: relative;
-  padding: 0.25em 0; }
-
-/*アイコン*/
-.fa-angle-double-right {
-  margin-left: 1em; }
-
-/*書いた人*/
-.writer {
-  margin-top: 2.0em;
-  border: 1px solid #cccccc; }
-
-.writer h3 {
-  border-bottom: 2px solid #f596aa; }
-
-.writer a {
-  padding: 1.0em;
-  display: block;
-  color: #000; }
-
-.writer_image {
-  width: 40%;
-  float: left; }
-
-.member_image {
-  text-align: center; }
-
-.writer_copy {
-  width: 60%;
-  float: left; }
-
-.title a {
-  color: #fff; }
-
-.sm-only {
-  display: none !important; }
-
 /* Animations Styles */
 .fade-in {
   -webkit-animation: fadein 1s;
@@ -460,6 +378,16 @@ main .mc {
     main .mc {
       width: 90%; } }
 
+footer .fc {
+  margin: 0 auto;
+  padding: 1em 0; }
+  @media screen and (min-width: 481px) {
+    footer .fc {
+      width: 1200px; } }
+  @media screen and (max-width: 480px) {
+    footer .fc {
+      width: 90%; } }
+
 /*新着情報*/
 .news ul li {
   padding: 1em 0;
@@ -541,10 +469,18 @@ header {
   background: #69bd83; }
 
 footer {
-  background: #846abd; }
+  background: #846abd;
+  color: #fff;
+  text-align: center; }
 
 .card {
-  background: rgba(189, 132, 106, 0.5); }
+  background: rgba(189, 132, 106, 0.5);
+  color: #fff; }
+
+.card a {
+  color: #fff; }
 
 .textbox {
-  background: rgba(189, 132, 106, 0.5); }
+  background: rgba(189, 132, 106, 0.5);
+  color: #fff;
+  text-align: center; }

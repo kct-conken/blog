@@ -465,6 +465,20 @@ footer .fc {
   font-size: 83%;
   font-weight: bold; }
 
+.post-title {
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 1.25; }
+
+.post-date {
+  color: #9a9a9a; }
+
+.post-content p {
+  margin-bottom: 1em;
+  color: #515151;
+  font-size: 20px;
+  line-height: 1.5; }
+
 header {
   background: #69bd83; }
 

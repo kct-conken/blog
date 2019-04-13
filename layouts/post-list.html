@@ -2,6 +2,7 @@
 <div class="posts-list fade-in">
   <% data.posts.forEach(function(post) { %>
     <% if(!post.draft) { %>
+        
       <article class="post">
         <h1 class="post-title">
           <a href="<%= post.permalink %>"><%= post.title %></a>
@@ -13,6 +14,7 @@
           <% } %>
         </div>
       </article>
+            
     <% } %>
   <% }) %>
 </div>

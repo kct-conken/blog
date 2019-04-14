@@ -365,9 +365,12 @@ header {
       header .hc {
         width: 90%; } }
 
-.gnav ul li a {
-  display: block;
-  color: #fff; }
+.gnav ul {
+  display: flex;
+  justify-content: space-around; }
+  .gnav ul li a {
+    display: block;
+    color: #fff; }
 
 main .mc {
   margin: 0 auto;

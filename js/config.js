@@ -46,7 +46,7 @@ var config = {
     },
 //    {
 //        name: 'home',
-//        layout: { list: 'page-list', single: 'page' },
+//        layout: { list: 'home-list', single: 'post' },
 //    },
   ],
 };

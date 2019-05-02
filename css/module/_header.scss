@@ -1,14 +1,10 @@
 header {
 	width: 100%;
-/*
-	position: fixed;
-	top: 0;
-	left: 0;
-	z-index: 99999;
-*/
-/*	border-bottom: 1px solid #ccc;*/
 	background: #E16B8C;
+    z-index: 100;
     .hc {
+        display: flex;
+        justify-content: space-between;
         margin: 0 auto;
         padding: .5em 1em;
         @include min-screen($breakpoint-pc) {
@@ -18,4 +14,10 @@ header {
             width: $width-container-sm;
         }
     }
+}
+header.home {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
 }

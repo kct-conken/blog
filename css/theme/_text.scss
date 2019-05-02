@@ -6,6 +6,7 @@ body {
 	margin: 0;
 	padding: 10px;
 	font-size: 136%;
+    font-weight: bold;
 }
 .title a{color: #fff;}
 .page-title{
@@ -75,4 +76,7 @@ body {
     color: #515151;
     font-size: 20px;
     line-height: 1.5;
+}
+.hc li p {
+    font-weight: bold;
 }

@@ -27,3 +27,35 @@
   from { opacity: 0; }
   to   { opacity: 1; }
 }
+
+.fromLeftIn
+{
+	transition: transform 2.0s ease, opacity 1.0s ease;
+	
+	transform: translate(0,0);
+	opacity: 1.0;
+}
+
+.fromLeftOut
+{
+	transition: transform 2.0s ease, opacity 1.0s ease;
+	
+	transform: translate(-100px,0);
+	opacity: 0.0;
+}
+
+.fromRightIn
+{
+	transition: transform 2.0s ease, opacity 1.0s ease;
+	
+	transform: translate(0,0);
+	opacity: 1.0;
+}
+
+.fromRightOut
+{
+	transition: transform 2.0s ease, opacity 1.0s ease;
+	
+	transform: translate(100px, 0);
+	opacity: 0.0;
+}

@@ -418,6 +418,12 @@ footer .fc {
 
 .bg-slider {
   height: 100vh; }
+  .bg-slider .bg-mask {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
 
 body {
   font-family: 'Noto Serif SC', serif;
@@ -426,7 +432,8 @@ body {
 .title {
   margin: 0;
   padding: 10px;
-  font-size: 136%; }
+  font-size: 136%;
+  font-weight: bold; }
 
 .title a {
   color: #fff; }
@@ -496,6 +503,9 @@ body {
   color: #515151;
   font-size: 20px;
   line-height: 1.5; }
+
+.hc li p {
+  font-weight: bold; }
 
 header {
   background: #69bd83; }

@@ -1,7 +1,9 @@
-header {background: $color-main;}
+header {background: $color-main}
+header.home { background: transparent;}
 //body {background: $color-base;}
 footer {background: $color-accent; color: #fff; text-align: center;}
 
-.card {background: $color-base; color: #fff;}
-.card a {color: #fff;}
-.textbox {background: $color-base; color: #fff; text-align: center;}
+//.card {background: $color-base; color: #fff;}
+.card a {color: #4d4d4d;}
+.card {border: 1px solid #ddd;}
+.textbox {border: 1px solid #ddd; color: #4d4d4d; text-align: center;}

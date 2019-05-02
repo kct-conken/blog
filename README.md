@@ -1,16 +1,39 @@
-## CMS.js Starter
+# 北九州高専コンピュータ研究部ブログ
 
-**Quick Start**
+## CMS.jsを利用したブログシステム
 
-1. Clone this repo: `git clone https://github.com/chrisdiana/cms.js-starter.git`
-2. Configure `js/config.js` to your liking
-3. Make sure to set your Github settings in `js/config.js` if using Github mode
-4. If using Github mode, create a new branch from your master or working branch called `gh-pages` (Github's default branch for hosting)
-5. Visit your site! (which should be located at `https://yourusername.github.io/cms.js-starter`)
+## ブランチ構成
+各作業はdevelopブランチからfeature/○○という名前でブランチを作成し行う。<br>
+全ての作業が完了したら develop -> master の順で merge を行う。<br>
+- **master**
+    - **develop**
+        - **feature/README**
+        - **feature/○○**
 
+## フォルダ構成
+css内はSMACSSで設計する。<br>
+layout, pages, postsはCMS.jsによる。<br>
+- **css**
+    - **layout**
+    - **module**
+    - **theme**
+- **img**
+- **js**
+- **layout**
+- **pages**
+- **posts**
 
-![CMS.js Screenshot](https://raw.githubusercontent.com/chrisdiana/cms.js/gh-pages/img/screenshot.png)
+## 利用方法
+masterブランチでpostsフォルダの中にマークダウンファイルを作成する。(他の記事を参考にしながら)<br>
+右上の Create new file をクリック。<br>
+ファイル名は yyyy-mm-dd-title.mdとする。<br>
+「---」で囲んだ中にオプションを設定する。<br>
+- layout: post
+- title: 記事のタイトル
+- excerpt: 記事一覧で表示する抜粋の文章
+- date: 記事投稿の日付
+- tag: タグ
+- author: 記事を書いた人
 
-## Learn more about CMS.js
-
-* Visit the [CMS.js repo](https://github.com/chrisdiana/cms.js) to learn more
+マークダウン記法で記事を書く。<br>
+Commit new file をクリックする。<br>

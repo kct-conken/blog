@@ -13,7 +13,7 @@ var config = {
   github: {
     username: 'kct-conken',
     repo: 'cms.js-starter',
-    branch: 'gh-pages',
+    branch: 'master',
     host: 'https://api.github.com',
     // Use prefix option if your site is located in a subdirectory.
     // prefix: 'subdirectory',

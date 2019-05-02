@@ -11,8 +11,8 @@ var config = {
   // If Github mode is set, your Github username, repo name, 
   // and branch to get files from.
   github: {
-    username: 'yourusername',
-    repo: 'yourrepo',
+    username: 'kct-conken',
+    repo: 'cms.js-starter',
     branch: 'gh-pages',
     host: 'https://api.github.com',
     // Use prefix option if your site is located in a subdirectory.
@@ -29,6 +29,7 @@ var config = {
   // For example, this could a list view or a could be a specific view
   // like a single page.
   defaultView: 'posts',
+//    defaultView: 'home',
 
   // These are the types of content to load. Each type name is a directory or
   // folder where the files, pages or posts are located. Each type has a list
@@ -43,6 +44,10 @@ var config = {
       name: 'pages',
       layout: { list: 'page-list', single: 'page' },
     },
+//    {
+//        name: 'home',
+//        layout: { list: 'home-list', single: 'post' },
+//    },
   ],
 };
 

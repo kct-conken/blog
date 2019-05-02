@@ -1,0 +1,21 @@
+header {
+	width: 100%;
+/*
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99999;
+*/
+/*	border-bottom: 1px solid #ccc;*/
+	background: #E16B8C;
+    .hc {
+        margin: 0 auto;
+        padding: .5em 1em;
+        @include min-screen($breakpoint-pc) {
+		    width: $width-container-pc;
+        }
+        @include max-screen($breakpoint-sm) {
+            width: $width-container-sm;
+        }
+    }
+}

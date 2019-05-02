@@ -1,0 +1,9 @@
+.card {
+	padding: 1.5em;
+	@include min-screen($breakpoint-pc) {
+		width: 300px;
+	}
+	@include max-screen($breakpoint-sm) {
+		margin-bottom: 1em;
+	}
+}

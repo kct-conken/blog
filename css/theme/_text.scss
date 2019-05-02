@@ -1,0 +1,78 @@
+body {
+    font-family: 'Noto Serif SC', serif;
+    font-family: 'EB Garamond', serif;
+}
+.title{
+	margin: 0;
+	padding: 10px;
+	font-size: 136%;
+}
+.title a{color: #fff;}
+.page-title{
+	margin-top: 30px; 
+	padding: 0; 
+	text-align: center; 
+	font-size: 200%; 
+	font-weight: 600; 
+	line-height: 1.5;
+}
+.page-title-icon{}
+.page-title-sub{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-weight: 600; 
+	font-size: 108%; 
+	letter-spacing: 0.2em;
+}
+.article-title{
+	margin-top: 30px;
+	padding: 0;
+	text-align: center;
+	font-size: 180%;
+	font-weight: bold;
+}
+.article-title-sub{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-weight: 600; 
+	font-size: 108%; 
+	letter-spacing: 0.2em;
+}
+.article-title-icon{
+	margin-right: 0.5em;
+}
+.section-title{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 120%;
+	font-weight: 400;
+}
+.section-title-sub{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 83%;
+	font-weight: bold;
+}
+
+.post-title, .page-title{
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 1.25;
+    color: #303030;
+}
+.post-title a {
+    color: #303030;
+}
+.post-date {
+    color: #9a9a9a;
+}
+.post-content *, .page-content *{
+    margin-bottom: 1em;
+    color: #515151;
+    font-size: 20px;
+    line-height: 1.5;
+}

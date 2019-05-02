@@ -1,0 +1,23 @@
+//Fonts
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond|Noto+Serif+SC');
+//Files
+@import 'mixins';
+@import 'setting';
+@import 'reset';
+
+@import 'animation';
+
+@import 'layout/flexbox';
+@import 'layout/layout';
+
+@import 'module/header';
+@import 'module/nav';
+@import 'module/main';
+@import 'module/footer';
+
+@import 'module/news';
+@import 'module/card';
+@import 'module/slider';
+
+@import 'theme/text';
+@import 'theme/color';

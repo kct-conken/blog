@@ -5,7 +5,9 @@
         li a{
             display: block;
             color: #fff;
-            margin-right: 5em;
+            @include min-screen($breakpoint-pc) {
+		        margin-right: 5em;
+            }
         }
     }
 }

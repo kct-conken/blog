@@ -11,11 +11,24 @@
     .bg-mask {
         height: 100%;
         width: 100%;
+        position: relative;
         display: flex;
         align-items: center;
         justify-content: center;
         -webkit-writing-mode: vertical-rl;
         -ms-writing-mode: tb-rl;
         writing-mode: vertical-rl;
+        .section-title {
+            color: #4d4d4d; 
+            font-size: 2em; 
+            background: #fff; 
+            padding: 5em 3em; 
+            position: absolute; 
+            top: 25%; 
+            right: 10%;
+            @include max-screen($breakpoint-sm) {
+                padding: 1em .5em;
+            }
+        }
     }
 }

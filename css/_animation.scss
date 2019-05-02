@@ -59,3 +59,9 @@
 	transform: translate(100px, 0);
 	opacity: 0.0;
 }
+
+article[data-scroll] {
+    @include max-screen($breakpoint-sm) {
+        transform: none;
+    }
+}

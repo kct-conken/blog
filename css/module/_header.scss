@@ -3,12 +3,12 @@ header {
 	background: #E16B8C;
     z-index: 100;
     .hc {
-        display: flex;
-        justify-content: space-between;
         margin: 0 auto;
         padding: .5em 1em;
         @include min-screen($breakpoint-pc) {
 		    width: $width-container-pc;
+            display: flex;
+            justify-content: space-between;
         }
         @include max-screen($breakpoint-sm) {
             width: $width-container-sm;

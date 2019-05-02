@@ -33,5 +33,6 @@ masterブランチでpostsフォルダの中にマークダウンファイルを
 - excerpt: 記事一覧で表示する抜粋の文章
 - date: 記事投稿の日付
 - author: 記事を書いた人
+
 マークダウン記法で記事を書く。<br>
 Commit new file をクリックする。<br>
